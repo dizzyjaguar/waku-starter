@@ -8,10 +8,13 @@ export const Header = () => {
           Waku <span className="text-red-400">Fruit</span> Shop
         </Link>
       </h2>
-      <div>
+      <div className="flex-row flex items-center space-x-4">
         <h2 className="text-lg font-bold tracking-tight">
           <Link to="/about">About</Link>
         </h2>
+        <Link to="/about">
+          <img src="/images/cart-icon.svg" width={24} height={'auto'} />
+        </Link>
       </div>
     </header>
   );
